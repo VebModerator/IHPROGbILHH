@@ -1,0 +1,7 @@
+{% extends "blog/base.html" %}
+{% load ststic %}
+{% block content %}
+<img src="{% static 'img/blog.jpg' %}" width="200px" height="auto">
+<div class="post-list" ></div>
+    {% for post in posts %}
+        <div></div>
